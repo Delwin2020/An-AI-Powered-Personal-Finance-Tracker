@@ -53,3 +53,8 @@ FinSight is a complete, working frontend-only web application that helps users t
 Since this is a serverless application without a database:
 - **State Management**: We use React hooks to manage and synchronize data with the browser's `localStorage`.
 - **Backend API**: The only backend component is a single Next.js API route (`/api/ai`). This securely calls the Gemini API on the server side so your API key is never exposed to the client. The route accepts a prompt and contextual transaction data, then returns the generated response.
+
+- 
+- live deployment : Live Deployment	(https://fin-sight-one-nu.vercel.app/)
+
+
